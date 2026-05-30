@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+  background: #f7f4ef;
+  color: #3b3028;
+}
+
+.app {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 20px 16px;
+}
+
+.appIcon {
+  display: block;
+  width: 86px;
+  height: 86px;
+  margin: 0 auto 8px;
+  border-radius: 22px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 18px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  border: 1px solid #d8cec4;
+  border-radius: 12px;
+  font-size: 18px;
+}
+
+button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  background: #8fbf7f;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 0;
+  color: #6c7f55;
+  font-weight: bold;
+}
+
+.goalBox {
+  background: #fff7df;
+  border-radius: 22px;
+  padding: 20px;
+  margin-bottom: 16px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.goalLabel {
+  margin: 0;
+  color: #7a6b60;
+  font-size: 16px;
+}
+
+.remaining {
+  margin: 6px 0 0;
+  color: #3b3028;
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.achieved {
+  color: #e18a4b;
+}
+
+.chartWrap {
+  height: 270px;
+}
