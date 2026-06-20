@@ -176,3 +176,13 @@ if (savedGoal) {
 }
 
 drawChart();
+
+
+const resetBtn = document.getElementById("resetBtn");
+if(resetBtn){
+  resetBtn.addEventListener("click", () => {
+    localStorage.removeItem("weightRecords");
+    localStorage.removeItem("goalWeight");
+    location.reload();
+  });
+}
