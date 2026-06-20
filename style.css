@@ -98,3 +98,9 @@ p {
 .chartWrap {
   height: 270px;
 }
+
+
+.resetBtn{
+  background:#d97c7c;
+  margin-bottom:16px;
+}
