@@ -58,9 +58,16 @@ button {
   border: none;
   border-radius: 14px;
   background: #8fbf7f;
-  color: white;
+  color: #fff;
   font-size: 17px;
   font-weight: bold;
+}
+
+#resetBtn,
+.resetBtn {
+  background: #d97c7c !important;
+  color: #fff !important;
+  margin-bottom: 16px;
 }
 
 p {
@@ -97,10 +104,4 @@ p {
 
 .chartWrap {
   height: 270px;
-}
-
-
-.resetBtn{
-  background:#d97c7c;
-  margin-bottom:16px;
 }
